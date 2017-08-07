@@ -8,7 +8,12 @@ import org.springframework.transaction.annotation.Transactional;
 
 import todo.dao.UserDao;
 import todo.model.User;
-
+/**
+ * 
+ * @author Sradhanjali
+ * Services related to users
+ *
+ */
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
