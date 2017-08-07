@@ -13,6 +13,10 @@ import org.springframework.stereotype.Repository;
 
 import todo.model.User;
 
+/**
+ * This class is a User Repository. It gets all the information related to a user
+ * 
+ */
 @Repository
 public class UserDaoImpl implements UserDao {
 
